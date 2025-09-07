@@ -83,7 +83,6 @@ fun PhotoFlow(
         modifier = Modifier
             .fillMaxSize()
             .windowInsetsPadding(WindowInsets.safeDrawing)
-            .padding(bottom = 70.dp)
     ) {
         // Camera preview
         AndroidView(
